@@ -50,6 +50,5 @@ const Layout = (props) => {
 
         </div>
     )
-}
-
+            }
 export default withRouter(Layout);
