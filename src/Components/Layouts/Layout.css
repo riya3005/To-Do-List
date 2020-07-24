@@ -1,0 +1,45 @@
+.Layout {
+    width: 400px;
+    margin: 50px auto;
+    background-color: black;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+
+}
+
+.ImportantTask {
+    color: white;
+    align-self: center;
+}
+
+.ListsTitle {
+    color: white;
+    align-self: center;
+}
+
+.NewListButton{
+    border: none;
+    background-color: black;
+    color: grey;
+    font-size: medium;
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+    
+}
+
+.ImpList {
+    display: flex;
+    flex-direction: row;
+}
+
+.arrowButton:after {
+    content: "\25B9";
+    font-size: 25px;
+}
